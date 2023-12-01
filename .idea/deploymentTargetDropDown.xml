@@ -7,12 +7,12 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\Tilek\.android\avd\Pixel_2_API_34.avd" />
+            <value value="C:\Users\Tilek\.android\avd\Pixel_2_API_UpsideDownCakePrivacySandbox.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-12-01T12:33:00.203437800Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-12-01T12:43:15.728880900Z" />
     <targetsSelectedWithDialog>
       <Target>
         <type value="QUICK_BOOT_TARGET" />

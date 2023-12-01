@@ -24,16 +24,17 @@ public class SecondActivity extends AppCompatActivity {
             buttonPress = true;
             if (buttonPress){
                 myButton.setBackgroundResource(R.drawable.heart_style);
-            } else {
+            } else if (buttonPress = false
+            ){
                 myButton.setBackgroundResource(R.drawable.ic_heart_fill);
             }
         });
-
+        nextClick(findViewById(R.id.next));
     }
 
     public void nextClick(View view){
-        if (view.getId() == R.id.next){
+        findViewById(R.id.next).setOnClickListener(v -> {
             finishAffinity();
-        }
+        });
     }
 }
