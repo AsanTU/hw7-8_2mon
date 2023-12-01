@@ -12,6 +12,16 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/invisible_button"
+            android:onClick="onButtonClick"
+            android:visibility="invisible"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:layout_margin="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
         
         <TextView
             android:id="@+id/text_view"
