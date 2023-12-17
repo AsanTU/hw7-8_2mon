@@ -26,7 +26,7 @@ public class SecondActivity extends AppCompatActivity {
                 myButton.setBackgroundResource(R.drawable.heart_style);
             } else if (buttonPress = false
             ){
-                myButton.setBackgroundResource(R.drawable.ic_heart_fill);
+                myButton.setBackgroundResource(R.drawable.heart_style_fill);
             }
         });
         nextClick(findViewById(R.id.next));
